@@ -1,0 +1,9 @@
+# api/config/packages/api_platform.yaml
+# config/packages/api_platform.yaml
+api_platform:
+    enable_profiler: true
+    swagger:
+         api_keys:
+             JWT:
+                name: Authorization
+                type: header
